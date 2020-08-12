@@ -24,6 +24,7 @@ public class LinkedList<T> implements Iterable<T> {
         }
     }
 
+    @Override
     public Iterator<T> iterator() {
         return new NodeIterator<>(head);
     }
